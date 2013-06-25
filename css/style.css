@@ -1,0 +1,208 @@
+/* CSS Document */
+
+/*
+	RESET CSS
+*/
+* { margin: 0; padding: 0; }
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+ul, ol {list-style: none;}
+strong {font-weight: bold;}
+
+article, aside, figure, footer, header, hgroup, menu, nav, section { display: block; }
+
+.group:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+.group { display: inline-block; clear: both; }
+/* start commented backslash hack \*/ * html .group { height: 1%; } .group { display: block; } /* close commented backslash hack */
+
+body {background: url(../images/background.jpg) center top no-repeat; font-family: arial, helvetica, sans-serif; font-size: 11px;}
+
+/*
+	TYPOGRAPHY
+*/
+h1, h2, h3, h4, h5 {}
+a img { border: 0; }
+a {text-decoration: none;}
+
+/****** TOP ******/
+#wrapper {margin: 0px auto; width: 1000px;}
+#top {width: 100%; height: 38px; background-color: #4a4a4a; overflow: hidden;}
+#top p a {display: block; float: left; text-transform: uppercase; font-weight: bold; color: #b3adad; font-size: 14px; padding: 8px;}
+#language {float: right; width: 150px; padding-top: 8px; overflow: hidden;}
+#language h3 {float: left; color: #b3adad; padding: 0 5px 0 0;}
+#language a {display: block; float: left; padding: 0 5px;}
+#search {width: 370px; height: 32px; float: right; background: url(../images/top_search_bg.gif) no-repeat center top; margin-right: 20px; overflow: hidden;}
+#search a {display: block; float: left; width: 110px; color: #999; padding: 8px 0 0 15px;}
+#txtSearch {width: 182px; height: 18px; margin-top: 5px; float: left; padding: 0; border: 1px solid #dbdbdb; border-bottom-color: white; border-right-color: white; }
+#imgSearch {float: left; padding: 2px 0 0 15px;}
+
+/****** HEADER ******/
+#header {background: url(../images/header_bg.jpg) no-repeat top center; width: 100%; height: 173px; overflow: hidden;}
+#header h1 a {display: block; float: left; width: 237px; height: 140px; background: url(../images/logo.png) no-repeat top center; text-indent: -99999px; margin: 15px;}
+#slider {float: left; width: 600px; height: 164px; padding: 0 0 0 50px;}
+.slide-divider {display:block; float: left; width: 1px; height: 164px;}
+#slide-content {float: left; width: 538px; padding: 15px 30px 0 30px; overflow: hidden;}
+#slide-content img {display: block; float: left; padding: 0 0 10px 0;}
+#slide-detail {float: left;width: 400px; padding: 0 0 0 30px;}
+#slide-detail h3 a {display: block; font-size: 15px; color: #b72c24; font-weight: bold;}
+#slide-detail p {padding: 5px 0; font-size: 12px; color: #fff; text-align: justify; line-height: 15px;}
+#detail {width: 83px; height: 21px; display: block; float: right; padding-left: 15px; margin-top: 5px; background: url(../images/details_bt_bg.gif) no-repeat top center; text-align: center; line-height: 23px; color: #000;}
+#pagination {padding-top: 10px; margin: 5px; text-align: center; float: left;}
+#pagination a.active, #pagination a:hover, #pagination a:active {background: url(../images/pag_bg_a.gif) no-repeat top center; color: #ad1614;}
+#pagination a {display: block; width: 22px; height: 22px; float: left; margin-right: 5px; line-height: 23px; text-align: center; background: url(../images/pag_bg.gif) no-repeat top center; color: #9d8b8b;}
+
+/****** NAV MENU ******/
+#nav-menu {width: 100%; height: 50px;}
+#nav-menu img {display: block; width: 9px; height: 100%; float: left;}
+#nav-menu ul {width: 982px; float: left; background: url(../images/menu_bg.gif) repeat-x;}
+body.admin #nav-menu ul {width: 982px;}
+#nav-menu ul li {display: inline; font-size: 11px; font-weight: bold; line-height: 50px;}
+#nav-menu ul li form {display: inline;}
+#nav-menu ul li img {width: 2px; height: 100%;}
+#nav-menu ul li a, #nav-menu ul li a:visited {display: block; float: left;padding: 0 8px 0 20px; margin:0 14px; height: 100%; color: #676d77;}
+#nav-menu ul li a:active, #nav-menu ul li a:hover {color: #333;}
+#nav-home {background: url(../images/home.png) no-repeat left;}
+#nav-1 {background: url(../images/services.png) no-repeat left;}
+#nav-5 {background: url(../images/favs.png) no-repeat left;}
+#nav-15 {background: url(../images/user_add.png) no-repeat left;}
+#nav-24 {background: url(../images/sig.png) no-repeat left;}
+#nav-25 {background: url(../images/car.png) no-repeat left;}
+#nav-32 {background: url(../images/contact-new.png) no-repeat left;}
+
+#nav-cur {width: 180px; float: left; padding: 0 0 0 15px; color: #676d77;}
+#nav-pro-cat {background: url(../images/a_pro_cat.png) no-repeat left;}
+#nav-a-pro {background: url(../images/a_pro.png) no-repeat left;}
+#nav-new-cat {background: url(../images/a_news_cat.png) no-repeat left;}
+#nav-new {background: url(../images/a_news.png) no-repeat left;}
+#nav-ord {background: url(../images/a_ord.png) no-repeat left;}
+#nav-user {background: url(../images/a_user.png) no-repeat left;}
+#nav-comm {background: url(../images/a_comm.png) no-repeat left;}
+
+/****** NAVIGATION ******/
+#navigation {width: 970px; height: 15px; padding: 10px 10px 0 20px; color: #333; background: url(../images/navbullet.png) no-repeat top left; background-position: 5px 11px;}
+.current {color: #0fa0dd;}
+
+/****** FIRST SIDEBAR ******/
+#content {width: 100%; overflow: hidden;}
+#first-sidebar {width: 196px; float: left;}
+.typical {margin-top: 10px;}
+.typical h3 {width: 100%; height: 30px; background: url(../images/menu_title_bg.gif) no-repeat center; text-align: center;font-size: 13px; font-weight: bold; color: #fff; line-height: 30px;}
+.typical h3 a {color: #fff;}
+.typical ul li a {display: block; width: 166px; height: 25px; background: url(../images/checked.png) no-repeat left; color: #504b4b; line-height: 25px; background-position: 5px; padding: 0 0 0 30px;}
+.typical ul li a.old {background-color: #dad0d0;}
+.typical ul li a.even {background-color: #eee6e6;}
+.typical ul li a:hover {background-color: #7bbcc7; color: #fff;}
+.box {width: 184px; height: auto; text-align: center; border: 1px solid #6da6b1; padding: 5px;}
+.box h4 a, .product-box h4 a {display: block; color: #ea2222; padding: 5px 0; font-weight: bold;}
+.box h4 a:hover, .product-box h4 a:hover, #boxnews h4 a:hover {color: #064e5a;}
+p.price {padding: 5px 0; color: #ea2222; text-align: center;}
+p.price span {text-decoration: line-through; color: #999;}
+#txtnewsletter {width: 160px; height: 16px; border: 1px solid #dd9d91; font-size: 12px; color: #999; margin: 10px 0 5px 0; padding: 3px;}
+.box form a {display: block; width: 40px; margin: 5px 0 5px 100px; padding: 0 0 0 20px; color: #1c4a52; background: url(../images/blue-add.png) no-repeat left;}
+.banner-adds a {display: block; width: 194px; text-align: center; padding: 10px 0;}
+#tm {display: block; font-size: 20px;}
+
+/****** MAIN CONTENT ******/
+#main-content {width: 585px; float: left; padding: 10px 10px; overflow: hidden;}
+.add-form {float: left; width: 560px; margin: 0 0 10px 12px;}
+.title-content {width: 520px; height: 33px; float: left; background: url(../images/bar_bg.gif) no-repeat center; padding-left: 40px; line-height: 33px; margin: 0 0 10px 12px; font-weight: bold; color: #847676;}
+.post {width: 560px; float: left; margin: 0 0 10px 12px;}
+.product-box {width: 173px; height: auto; float: left; padding: 10px 10px 10px 11px; text-align: center; overflow: hidden;}
+.top-prod-box {width: 100%; height: 12px; float: left;}
+.bot-prod-box {width: 100%; height: 12px; float: left;}
+.cen-prod-box {width: 100%; height: 165px; float: left; background: url(../images/product_box_center.gif) repeat-y;}
+.cen-prod-box h4 {height: 40px;}
+.cen-prod-box img {display: block; width: 110px; height: 100px; padding-left: 30px;}
+.prod-detail-tab {width: 100%; height: 31px; float: left; margin: 3px 0 0 0; background: url(../images/products_details_bg.gif) no-repeat center;}
+.prod-detail-tab a {float: left; padding: 6px 0 0 6px;}
+.prod-detail-tab a.detail-a { display: block; width: 35px; float: left; padding: 0 0 0 20px; background: url(../images/square-blue-add.gif) no-repeat left; margin: 7px 0 0 38px; color: #0fa0dd;}
+#qmk a {display: block; float: left; margin-top: 10px; width: 100%;}
+
+/****** TOOLTIP ******/
+.tooltip {background-color: #707070; position: absolute; text-align: center; padding: 5px; width: auto; color: white;}
+
+/****** SECOND SIDEBAR ******/
+#second-sidebar {width: 196px; float: right;}
+#shopping-cart {width: 195px; height: 84px; background: url(../images/cart_bg.gif) no-repeat center; padding-top: 20px;}
+#shopping-cart h2 a {display:block;  font-size: 12px; color: #847676; font-weight: bold; padding: 4px 0 0 60px;}
+body.admin #shopping-cart h2 a {padding-top: 0px;}
+#cart-details {width: 115px; float: left; text-align: left; padding: 5px 0 0 15px;}
+body.admin #cart-details {padding-left: 5px;}
+body.admin #cart-details a {color: #504b4b;}
+body.admin #cart-details a:hover {color: #ea2222; text-decoration: underline;}
+#shopping-cart a {display: block; float: left; padding: 5px 0 0 15px;}
+#border-cart {width: 100px; height: 1px; margin: 3px 0; border-top: 1px dashed #999;}
+#cart-details p span {color: #ea2222;}
+#boxnews p {text-align: left; color: #504b4b;}
+#boxnews p.date {text-decoration: underline; color: #676d77; text-align: right; font-size: 11px;}
+#boxnews h4 a {text-align: left;}
+.newstitle {text-align: left;}
+.news {margin-top: 5px; border-top: 1px solid #6da6b1; padding-top: 5px;}
+
+/****** FOOTER ******/
+#footer {width: 1000px; height: 65px; background: url(../images/footer_bg.gif) repeat-x top;}
+#left-footer a {display: block; float: left; width: 300px; padding: 5px 0 0 10px; background: url(../images/footer_logo.png) no-repeat left; height: 55px; margin-left: 10px; text-indent: -999999px;}
+#center-footer {float: left; width: 225px; text-align: center; color: #666; padding: 10px 0 0 50px;}
+#right-footer {float: right; padding: 15px 10px 0 0;}
+#right-footer ul li {display: inline; padding-right: 5px;}
+#right-footer ul li a {color: #666;}
+#right-footer ul li a:hover {color: #064e5a; text-decoration: underline;}
+body.admin #footer {margin-top: 20px;}
+
+/****** FORM ******/
+legend {color:#fff; background-color: #55909a; padding: 5px 23px; border-radius: 5px;}
+fieldset {border:1px solid #55909a; padding: 10px; border-radius: 5px;}
+fieldset div {margin: 10px 0px;}
+label {display: block; width:300px; font-weight: bold; margin: 10px 15px 5px 0px;}
+textarea {border:1px solid #ccc; height: 400px; padding: 5px;}
+input[type="text"], input[type="password"] {padding: 3px; width: 200px;}
+.required {color: #c00;}
+p.notice {padding: 5px 0 10px 25px; color: red; font-weight: bold;}
+p.success {padding: 5px 0 10px 25px; color: blue; font-weight: bold;}
+input[type="submit"] {margin: 10px 350px 0 0; float: right; padding: 2px 10px;}
+.hidden {height: 1px;}
+#avatar {margin-top: 20px;}
+.not-avai {color: red; font-weight: bold;}
+.avai {color: blue; font-weight: bold;}
+.avatar { width: 60px; height: 60px;float: left;margin: 0 25px 0px 0px; border:1px solid #c1c1c1; padding: 3px; background-color: white;}
+input.change {width: 100px;}
+.in-form {margin-bottom: 10px;}
+.intro-image {display: block; width: 80px; height: 60px;margin: 10px 25px 0px 0px; border:1px solid #c1c1c1; padding: 3px; background-color: white;}
+.short {height: 100px;}
+
+/****** TABLE LAYOUT ******/
+table {margin: 0 0 10px 12px; border-collapse: collapse; width: 560px;}
+td, th {padding: 5px 10px; border: 1px #ccc solid; }
+thead {background: #55909a; font-weight: bold; color: #fff;}
+thead a {color: #fff;}
+tbody td.delete {text-align: center;}
+tbody td.edit {text-align: center;}
+
+.post {font-size: 12px;}
+.post h2 a {margin: 0px 0px 5px 5px; font-size: 14px; color: #609AA5; font-weight: bold;}
+.post h2 a:hover {text-decoration: underline;}
+.post img {float: left; margin: 0px 10px 0 0; width: 140px; height: 105px;}
+.post div {margin: 5px 0 5px 158px;}
+.post .meta {display: block; float: left; width: 545px; margin: 15px 10px 10px 0px; border-top: 1px solid #bcd4da; border-bottom: 1px solid #bcd4da; padding: 5px;}
+.pagination {display: block; font-size: 12px; margin-left: 10px;}
+.pagination a {color: black;}
+.pagination a:hover {text-decoration: underline;}
+.pagination li {display: inline; padding-right: 5px;}
+.current {font-weight: bold; color: red;}

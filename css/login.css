@@ -1,0 +1,11 @@
+* {margin: 0; padding: 0;}
+#wrapper {width: 350px; margin: 20px auto; padding: 5px 15px; overflow: hidden;}
+p {margin: 10px 0px;}
+form, ul {border: 1px solid #55909a; padding: 10px;}
+ul {list-style: inside;}
+label {float: left; display: block; font-weight: bold; width: 90px;}
+input {padding: 2px 3px;}
+input[name='submit'] {margin-left: 90px;}
+.login {text-align: center; border-top: 4px solid #55909a; background: transparent url(../images/login.gif) no-repeat top center;}
+a {color: white; text-decoration: none; font: bold 16px "Museo 700"; display: block; width: 150px; height: 40px; line-height: 27px; margin: 0px auto;}
+a.active {background-position: 23px 12px;}
